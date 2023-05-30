@@ -1,0 +1,309 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+.body{
+    margin:0;
+    padding: 0;
+    height:400px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+
+
+}
+    
+
+.Menu{
+    margin-top: 10px;
+    background: white
+}
+.menubar{
+    background:rgb(135,206,235);
+    -webkit-text-fill-color:black;
+    justify-content:space-between;
+    display: flex;
+    text-align: center;
+    
+}
+
+.contact{
+    background-color: rgb(135,206,235);
+    height: 120px;
+    /* width: 100%; */
+    /* position: absolute; */
+    margin-top: 65px;
+
+}
+.menubar ul{
+    display: inline-flex;
+    list-style: none;
+    color:white;
+}
+.menubar ul li{
+    margin: 3px;
+    width: 50px;
+    padding: -1px;
+    color:white;
+    text-align:center;
+    display: inline-flex;
+    
+}
+.menubar ul li a{
+    text-decoration: none;
+    color:black
+}
+.active,.menubar ul li a:hover{
+    background:rgb(0,191,255);
+    border-radius: 3px;
+    box-sizing:content-box;
+    width: 41px;
+    height:17px;
+
+    /* position: absolute; */
+
+}
+/* .active1:hover{
+    background:rgb(0,191,255);
+    border-radius: 3px;
+    width: 70px;
+    height:34px;
+    box-sizing:content-box;
+    } */
+
+.slider{
+    width: 1220px;
+    height: 200px;
+    border-radius:10px;
+    overflow:hidden;
+    
+
+}
+.sliders{
+    width: 70%;
+    height: 80%;
+    display:flex;
+   
+    
+
+
+
+}
+/* .overflow{
+    overflow:hidden;
+} */
+.sliders input{
+    display: none;
+}
+.slide{
+    width: 28%;
+    transition: 2s;
+}
+    
+
+/* }
+.slide1 img{
+    width:800px;
+    height: 500px;
+
+}
+.slide2 img{
+    width:330px;
+    height:400px;
+}
+.slide3 img{
+    width:300px;
+    height:400px;
+}
+.slide4 img{
+    width:300px;
+    height:400px;
+} */
+/* css for manual slide navigation */
+.navigation-Manual{
+    position:absolute;
+    width:800px;
+    margin-top:80px;
+    margin-left:200px;
+    display:flex;
+    justify-content:center;
+
+}
+.manual-btn{
+    border:3px solid #2C2C2C;
+    padding:5px;
+    border-radius: 500px;
+    cursor:pointer;
+    transition:1s;
+}
+.manual-btn:not(:last-child){
+    margin-right: 40px;
+}
+
+.manual-btn:hover{
+    background:#2C2C2C;
+}
+#radio1:checked ~ .first{
+    margin-left:10%;
+
+}
+#radio2:checked ~ .first{
+    margin-left:-20%;
+    
+}
+#radio3:checked ~ .first{
+    margin-left:-40%;
+    
+}
+#radio4:checked ~ .first{
+    margin-left:-60%;
+    
+}
+.Navigation-auto{
+    Position:absolute;
+    display:flex;
+    width:800px;
+    justify-content: center;
+    margin-top:241px;
+    margin-left:200px;
+
+}
+.Navigation-auto div{
+    border:3px solid #2C2C2C;
+    padding: 5px;
+    border-radius:500px;
+    transition:1s;
+}
+.Navigation-auto div:not(:last-child){
+    margin-right: 40px;
+
+}
+#radio1:checked ~ .Navigation-auto .auto-btn1{
+    background:#2C2C2C;
+
+}
+#radio2:checked ~ .Navigation-auto .auto-btn2{
+    background:#2C2C2C;
+
+}
+#radio4:checked ~ .Navigation-auto .auto-btn3{
+    background:#2C2C2C;
+
+}
+#radio5:checked ~ .Navigation-auto .auto-btn4{
+    background:#2C2C2C;
+
+}
+/*Contact Us code starts*/
+.c1{
+    font-size: 25px;
+}
+.contact ul li{
+    margin: 10px;
+    width: 250px;
+    padding: 1px;
+    color:black
+}
+
+    
+
+.gatecode{
+    margin-left: 800px;
+    
+}
+/*Placmentinfo code starts*/
+.info{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    text-align: center;
+    margin-top: 65px;
+    font-size: 30px;
+    position: absolute;
+    margin-left: 505px;
+    box-sizing: border-box;
+    font-style: normal;
+    font-family: Arial;
+    /* background: rgb(0, 89, 255); */
+
+}
+
+.info a{
+    text-decoration:none
+
+
+}
+.batch1{
+    border: 2px solid;
+    border-radius: 12px;
+    width: 255px;
+    background-color: aqua;
+    
+}
+.batch2{
+    border: 2px solid;
+    border-radius: 12px;
+    width: 255px;
+    background-color: aqua;
+    
+}
+.batch3{
+    border: 2px solid;
+    border-radius: 12px;
+    width: 255px;
+    background-color: aqua;
+    
+}
+.batch4{
+    border: 2px solid;
+    border-radius: 12px;
+    width: 255px;
+    background-color: aqua;
+    
+}
+.batch5{
+    border: 2px solid;
+    border-radius: 12px;
+    width: 255px;
+    background-color: aqua;
+    
+}
+.batch6{
+    border: 2px solid;
+    border-radius: 12px;
+    width: 255px;
+    background-color: aqua;
+    
+}
+
+.batch1:hover{
+    background-color: blue;
+}
+.batch2:hover{
+    background-color: blue;
+}
+.batch3:hover{
+    background-color: blue;
+}
+.batch4:hover{
+    background-color: blue;
+}
+.batch5:hover{
+    background-color: blue;
+}
+.batch6:hover{
+    background-color: blue;
+}
+/*Placmentinfo code starts*/
+
+
+/* .batch2,.info ul li:hover{
+    background: rgb(0,191,255);
+    border-radius: 500px;
+
+} */
+
+
+

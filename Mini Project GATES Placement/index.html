@@ -1,0 +1,98 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <title>GATES Placements</title>
+    </head>
+    <body>
+        
+            <div class="Menu">
+                <div class="gatecode"><span class="ccode"> Counselling Code: </span>
+                    <span class="gatecc">GATE </span></div>
+                <div class="img">
+                <img src="Logo.png" width="750cm">
+            </div>
+                
+                <hr></hr>
+                </div>
+                <div class="menubar">
+                <ul>
+                    <li class="active"><a href='#'>Home</a></li>
+                    <li><a href='Placementinfo.html'>Placement-Record</a></li>
+        
+                </div>
+            <!-- <div class="logo">
+                <img src="TCS.png">
+                <img src="TATA.png">
+            </div> -->
+            <div class="slider">
+                <div class="sliders">
+                    <!--radio button starts-->
+                    <input type="radio" name="radio-btn" id="radio1">
+                    <input type="radio" name="radio-btn" id="radio2">
+                    <input type="radio" name="radio-btn" id="radio3">
+                    <input type="radio" name="radio-btn" id="radio4">
+                    <!--radio button ends-->
+                    <!--slides start-->
+                    <div class="slide first">
+                        <img src="TCS.png" width="530px" height="300px" alt="TCS Company">
+                    </div>
+                    <div class="slide">
+                        <img src="TATA.png" width="440px" height="300px" alt="TATA Company">
+                    </div>
+                    <div class="slide">
+                        <img src="Infosys.png" width="440px" height="300px" alt="Infosys Company">
+                    </div>
+                    <div class="slide">
+                        <img src="HCL.png" width="440px" height="300px" alt="HCL Company">
+                    </div>
+                    <div class="slide">
+                        <img src="MindTree.png" width="440px" height="300px" alt="MindTree Company">
+                    </div>
+                    <div class="slide">
+                        <img src="mahindra.png" width="440px" height="300px" alt="Tech Mahindra Company">
+                    </div>
+                    <div class="slide">
+                        <img src="LT.png" width="440px" height="300px" alt="L&T Company">
+                    </div>
+                    <!--Slides End-->
+                    <!--Navigation-auto starts-->
+                    <div class="Navigation-auto">
+                        <div class="auto-btn1"></div>
+                        <div class="auto-btn2"></div>
+                        <div class="auto-btn3"></div>
+                        <div class="auto-btn4"></div>
+                    </div>
+                    <!--Navigation-auto ends-->
+                    
+                </div>
+                <!--navigation-Manual starts-->
+                <div class="navigation-Manual">
+                    <label for="radio1" class="manual-btn"></label>
+                    <label for="radio2" class="manual-btn"></label>
+                    <label for="radio3" class="manual-btn"></label>
+                    <label for="radio4" class="manual-btn"></label>
+                </div>
+                
+                <!--navigation-Manual ends-->
+            </div>
+            <script type="text/javascript">
+                var counter=1;
+                setInterval(function(){
+                    document.getElementById('radio'+ counter).checked = true;
+                    counter++;
+                    if(counter>4){
+                        counter = 1;
+
+                    }
+                },5000);
+            </script>
+            <div class="contact">
+                <ul>
+                    <li class="c1"><b>Contact us</b></li>
+                    <li class="gmail"> E-Mail - info@gatesit.ac.in</li>
+                    <li class="office"> Office - +91 9949379691, +91 9491119696,
+                        +91 9490082001</li>
+                </ul>
+            </div>
+    </body>
+</html>

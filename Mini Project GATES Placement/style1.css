@@ -1,0 +1,31 @@
+body{
+    background-image: url(gates.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+    
+    width:200px;
+    /* position:absolute; */
+    margin-top: 200px;
+    text-align: center;
+    
+    margin: 0;
+    padding: 0;
+}
+/*batch1code--starts*/
+.placements1{
+    background: #ffffff;
+    text-align: center;
+    position:absolute;
+
+    margin-left: 300px;
+    margin-top: 50px;
+    background-image:url(gate.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.menu{
+    background-color: rgb(255, 85, 5);
+}
+/* batch1code--ends */
